@@ -13,7 +13,7 @@ const scriptsInEvents = {
 			console.log(runtime.globalVars.TotalScore)
 		},
 
-		async GameEvsheet_Event164_Act3(runtime, localVars)
+		async GameEvsheet_Event160_Act3(runtime, localVars)
 		{
 			postText(runtime.globalVars.finalScore)
 		}
