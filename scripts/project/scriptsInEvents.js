@@ -8,15 +8,15 @@ function postText(value){
 
 const scriptsInEvents = {
 
-		async GameEvsheet_Event23_Act4(runtime, localVars)
-		{
-			console.log(runtime.globalVars.TotalScore)
-		},
+	async GameEvsheet_Event23_Act4(runtime, localVars)
+	{
+		console.log(runtime.globalVars.TotalScore)
+	},
 
-		async GameEvsheet_Event160_Act3(runtime, localVars)
-		{
-			postText(runtime.globalVars.finalScore)
-		}
+	async GameEvsheet_Event162_Act3(runtime, localVars)
+	{
+		postText(runtime.globalVars.finalScore)
+	}
 
 };
 
